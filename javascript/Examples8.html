@@ -1,0 +1,16 @@
+<html>
+<script>
+    function user(name){
+        this.name=name;
+        this.sayHi=function () {
+            alert("my name is:"+this.name);
+        };
+        //it will shows error
+        // sayHi: function  user () {
+        //     alert("my name is:"+this.name);
+        // };
+    }
+    let hlo=new user("ramana ssvv");
+    hlo.sayHi();
+</script>
+</html>
