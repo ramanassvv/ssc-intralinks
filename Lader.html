@@ -1,0 +1,23 @@
+<html>
+<script>
+    let ladder={
+        step:0,
+        up(){
+            this.step++;
+            return this;
+    },
+    down(){
+            this.step--;
+        return this;
+    },
+    showstep:function(){
+            alert(this.step);
+        return this;
+    }
+    };
+ladder.up();
+ladder.down();
+ladder.showstep();
+</script>
+
+</html>

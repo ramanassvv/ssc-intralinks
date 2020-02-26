@@ -1,0 +1,20 @@
+
+<html>
+<script>
+// function user(){
+//     alert(new.target);
+//     return 1;
+// }
+// //user();
+// new user();
+
+    function user(name){
+        if(!new.target){
+            return new user(name);
+        }
+        this.name=name;
+    }
+    let john=user("ramana");
+    alert(john.name);
+</script>
+</html>
