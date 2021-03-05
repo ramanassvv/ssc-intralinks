@@ -1,0 +1,28 @@
+
+
+.bg1-ED{
+   
+    padding:20px;
+    
+}
+
+.bg-ED{
+    
+    padding:10px;
+}
+
+
+.list-group-item{
+    height:60px;
+    background-color: #D7DBDD ;  
+    line-height: 40px;  
+    border: 1px solid black;
+}
+
+.list-group-item{
+    font-size: 18px;
+    font-family: 'Bree Serif';
+}
+
+
+/* profile css */

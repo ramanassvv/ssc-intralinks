@@ -1,0 +1,36 @@
+.abc{
+     width:100%; 
+    
+}
+
+
+#panel1{
+    color:#222;
+    background-color:#ff6f69;
+    padding:10px;
+    color:#fff;
+    padding-left:20px;
+    border:0;
+    height:210px;
+}
+
+.panel.panel-default:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.row h3{
+    margin-top: 0px;
+}
+
+.pic{
+    height:30px;  
+}
+
+.panelBodyHeight{
+    height:130px;
+}
+
+.panelHeadingHeight{
+    height:50px;
+}

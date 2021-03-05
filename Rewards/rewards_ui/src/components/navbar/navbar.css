@@ -1,0 +1,21 @@
+nav.navbar{
+    margin-bottom:0px;
+    
+}
+.nav1{
+    pointer-events: none;
+    color:white;
+    font-size: 20px;
+    
+}
+
+
+
+.navbar-nav button{
+    margin-top:12px;
+    margin-left:10px;
+    
+}
+.btn1 {
+    pointer-events: none;
+}
